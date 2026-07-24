@@ -19,7 +19,7 @@ export default function Gallery(): React.JSX.Element {
         {images.map((src, idx) => (
           <div key={idx} className="overflow-hidden rounded-2xl bg-gray-200 aspect-square group relative shadow-md">
             <img 
-              src={`${src}`} 
+              src={`/soy-luca${src}`} 
               alt={`Luca en acción ${idx + 1}`} 
               className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
             />

@@ -19,7 +19,7 @@ export default function About(): React.JSX.Element {
         <div className="relative group mx-auto md:mx-0">
           <div className="absolute -inset-2 energy-bg rounded-2xl opacity-75 blur group-hover:opacity-100 transition duration-300"></div>
           <img 
-            src="/images/mami-esta-mal.jpg" 
+            src="/soy-luca/images/mami-esta-mal.jpg" 
             alt="Perfil" 
             className="relative rounded-2xl w-84 h-100 object-cover"
           />
